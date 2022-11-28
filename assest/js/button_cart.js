@@ -1,5 +1,3 @@
-function showAlert() {
-    setTimeout(() => {
-        alert('3 giây đã chạy xong!')
-    }, 3000);
- }
+function buttonincart(){
+    alert("Hệ thống đang lỗi\nVui lòng thử lại sau")
+}
