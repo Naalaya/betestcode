@@ -44,13 +44,13 @@ section #container .containerinfo{
 section #container .containerinfo h2{
   color: #fff;
   font-size: 24px;
-  margin: 20px 0;
+  margin: 0;
 }
 section #container .containerinfo li{
   position: relative;
   list-style: none;
   display: flex;
-  margin: 20px 0;
+  margin: 30px 0;
   cursor: pointer;
   align-items: flex-start;
 }
@@ -154,8 +154,8 @@ section #container .containerForm .formBox .inputBox input[type="submit"]:hover{
 }
 section #container .containerForm .formBox .inputBox input:focus ~ span,
 section #container .containerForm .formBox .inputBox textarea:focus ~ span,
-section #container .containerForm .formBox .inputBox input:valid ~ span,
-section #container .containerForm .formBox .inputBox textarea:valid ~ span{
+section #container #containerForm .formBox .inputBox input:valid ~ span,
+section #container #containerForm .formBox .inputBox textarea:valid ~ span{
   transform: translateY(-20px);
   font-size: 12px;
   font-weight: 400;
