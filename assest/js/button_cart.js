@@ -1,3 +1,3 @@
-function buttonincart(){
-    alert("Hệ thống đang lỗi\nVui lòng thử lại sau")
+function buttonInCart(){
+    alert("Hệ thống đang lỗi\nVui lòng thử lại sau");
 }
